@@ -39,7 +39,7 @@ To contact me --> MyFirstName.MyLastName@africamuseum.be or MyFirstName.MyLastNa
 **!!! PLEASE READ THE FOLLOWING DESCRIPTION BEFORE USING THE SCRIPTS FOR THE FIRST TIME !!!**  
 
 ## SCRIPT 0: Copy2singleFolder (optional)
-*Current version:* **1.0.1** (18th May 2021)  
+*Current version:* **1.0.1** *(18th May 2021)*  
 
 This script simply copies all the raw scanned photos that are stored in a series of subfolders, into a single folder. It has been developed as the technicians who are taking care of scanning and archiving the raw scanned photos follow a specific structure of folders and subfolders to store the raw scanned data. As all the following scripts are based on the assumption that all the photos to process are in the same folder (i.e., one directory path provided for the input data), this small script allows copying the scanned data into an appropriate single place for their preprocessing. It also has the advantage of leaving the original scans where they are, and making us working on a copy of them.
 
@@ -51,7 +51,7 @@ The required Python modules are **os** and **shutil**. They are both default mod
 *- The file format of the photos (by default, .tif), in case other files are stored in the folder and subfolders*  
 
 ## SCRIPT 1: AirPhoto_CanvasSizing 
-*Current version:* **1.0.1** (18th May 2021)    
+*Current version:* **1.0.1** *(18th May 2021)*  
   
 This script aims to get images with the same number of pixels in width and height, which is not always the case with scanned photographs. The script will look at all photographs available in a given directory and search for the maximum width and height values in the dataset. Once found, it will homogenize the dataset by adding rows and/or columns of black pixels to images that don't have these maximum dimensions.  
   
@@ -71,7 +71,7 @@ The output images will be saved with the same name as the input images, compleme
   
   
 ## SCRIPT 2: AirPhoto_reprojection  
-*Current version:* **1.0.1** (18th May 2021)    
+*Current version:* **1.0.1** *(18th May 2021)*  
   
 This script aims to reproject the aerial photographs based on the pixel coordinates of the fiducial marks, in order to obtain a homogeneous dataset with the center of perspective located in the middle of the images. To run this script, you first need to create a table, in csv format, containing the XY coordinates (in pixel) of four fiducial marks used to locate the center of perspective. A template of such a table is provided. Please, keep the name of each columns similar to those in the template, as these names are used in the script to find the corresponding information.  
   
@@ -102,7 +102,7 @@ After several tests with different resampling algorithms and Python modules, it 
 *If, in any case, you find an open-source equivalent of the Bicubic Sharper algorithm of Photoshop, please do not hesitate to share this information with me! Thank you in advance!*  
 
 ## SCRIPT 3: CreateSingleMask (optional)
-*Current version:* **1.0.1** (18th May 2021)    
+*Current version:* **1.0.1** *(18th May 2021)*  
 
 This script is only useful for photogrammetric software that allows you to apply a single mask file to all the photos of the same dimensions, like with Agisoft Photoscan/Metashape Pro.
 
