@@ -9,7 +9,7 @@ Each script can be run as it, by simply adapting the necessary parameters in the
   
 *1) A header providing a description of the script, the name of the authors, the required Python modules, the reference to cite if used, etc.*  
 *2) A section with the Python modules to install (in addition to the recommended Anaconda/Miniconda Package distribution)*  
-*3) The SETUP section with the variables and parameters that must be adapted by the user (that is the only part that must be modified before use)*  
+*3) The SETUP section with the variables and parameters that must be adapted by the user (only part that must be modified before use)*  
 *4) The required coding to perform the task (should not be modified, except for specific user needs)*  
   
 To get the required Python working environment, the followed philosophy was to install the Anaconda/Miniconda Distribution for Python 3, create a virtual environment dedicated to the processing of aerial photographs (using "conda create --name myenv python=3) and add the required modules using the "conda install" or "pip install" functions. The required Python modules that are needed for each script are mentioned in the header of the script.  
