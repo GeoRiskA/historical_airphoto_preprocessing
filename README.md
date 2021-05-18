@@ -22,9 +22,10 @@ The Python scripts are under a *GPL-3.0 license*. They are attached to a specifi
 **Authors:** *Smets, B., Dewitte, O., Michellier, C., Muganga, G., Dille, A., Kervyn, F.*  
 **Title:** *Insights into the SfM photogrammetric processing of historical panchromatic aerial photographs without camera calibration information*  
 **Journal:** *International Journal of Geo-Information (submitted)*  
+  
 If you use these scripts or an adapted version of them, please, cite the references of the repository and article in your work. Thank you in advance! (The publication status of the article will be adapted asap) 
 
-All the scripts provided here are created by an Earth Scientist with self-learned programming skills. They can definitely be improved by a professional programmer. So, if you have constructive comments or recommendations that could help me to improve or speed up these scripts, please do not hesitate to contact me! I thank you in advance!  
+All the scripts provided here are created by an Earth Scientist with self-learned programming skills. They can definitely be improved by a professional programmer. So, if you have constructive comments or recommendations that could help me to improve or speed up these scripts, please do not hesitate to contact me! I thank you in advance.  
   
 **Benoît Smets**   
 - Senior Researcher, Natural Hazards Service (GeoRiskA), Royal Museum for Central Africa (Tervuren, Belgium)  
