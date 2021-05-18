@@ -1,4 +1,5 @@
 # Historical Aerial Photo Pre-Processing  
+[![DOI](https://zenodo.org/badge/366727725.svg)](https://zenodo.org/badge/latestdoi/366727725)
 *Last modified: 18th May 2021*  
 
 The present repository contains a series of scripts that are useful to prepare datasets of scanned aerial photographs before their photogrammetric processing. The goal here is to go from raw scanned photographs to sets of images that have **1)** identical pixel dimensions in width and height, and **2)** the center of perspective relocated at the center of the image, based on the fiducial marks (i.e., "interior" or "intrinsic" orientation).  
