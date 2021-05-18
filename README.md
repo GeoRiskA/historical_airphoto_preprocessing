@@ -20,10 +20,10 @@ Each script has been optimized for speed by parallelizing the job using the Mult
 The scripts have also been adapted to display information about the ongoing processing in the Python console or terminal.  
   
 The Python scripts are under a *GPL-3.0 license*. They are attached to a specific DOI (10.5281/zenodo.4770166) and can be cited as follow:  
-**Author:** Smets, B.
-**Year:** 2021
-**Title:** Historical Aerial Photo Pre-Processing
-**URL:** https://github.com/GeoRiskA/historical_airphoto_preprocessing
+**Author:** Smets, B.  
+**Year:** 2021  
+**Title:** Historical Aerial Photo Pre-Processing  
+**URL:** https://github.com/GeoRiskA/historical_airphoto_preprocessing  
 **DOI:** 10.5281/zenodo.4770166  
   
 The scripts are also attached to the following peer-reviewed article (not published yet):  
