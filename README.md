@@ -93,11 +93,11 @@ This script aims to reproject the aerial photographs based on the pixel coordina
   
 The output images will be saved with the same name as the input images, complemented with "_standardized". The images will be saved in tif format, as I personally only work with raw (uint16) tif files. If you want to change this, you have to adapt the file format in the script, in line 130.
 
-## Downsampling of the images
+## NOT SCRIPTED: Downsampling of the images
 
 In order to smooth the potential noise introduced by the reprojection of each image, **I strongly suggest to downsample the images to a lower resolution**. At the RMCA, we scan the photos at a resolution of 1500 dpi (except for specific collections), which is, in general, too much considering the quality of the collections. So, we use to resample the reprojected photos to 900 dpi (+ or - 300 dpi, depending on the quality of the dataset).
 
-After several tests with different resampling algorithms and Python modules, it appears that **the best resampling method to obtain a good photogrammetric result is the "Bicubic Sharper" algorithm of Adobe Photoshop(R)**. This algorithm is by far better than any other available with Python modules. So I strongly recommend to use Photoshop for this step. Otherwise, the downsampling could be performed with Python modules like Pillow, OpenCV or Scikit-Image.
+After several tests with different resampling algorithms and Python modules, it appears that **the best resampling method to obtain a good photogrammetric result is the "Bicubic Sharper" algorithm of Adobe Photoshop(R)**. This algorithm is by far better than any other available with Python modules. So I strongly recommend to use Photoshop for this step. The downsampling of a photo dataset in Photoshop can be automated by creating an "Action". Otherwise, the downsampling could be performed with Python modules like Pillow, OpenCV or Scikit-Image, but I cannot guarantee an optimal image matching during the photogrammetric processing.
 
 *If, in any case, you find an open-source equivalent of the Bicubic Sharper algorithm of Photoshop, please do not hesitate to share this information with me! Thank you in advance!*  
 
