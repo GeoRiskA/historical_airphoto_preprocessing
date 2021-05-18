@@ -4,7 +4,7 @@
 
 The present repository contains a series of scripts that are useful to prepare datasets of scanned aerial photographs before their photogrammetric processing. The goal here is to go from raw scanned photographs to sets of images that have **1)** identical pixel dimensions in width and height, and **2)** the center of perspective relocated at the center of the image, based on the fiducial marks (i.e., "interior" or "intrinsic" orientation).  
   
-All these scripts were developed in the frame of the **PAStECA Project** (BELSPO, BRAIN-be Programme, Contract n° BR/165/A3/PASTECA, http://pasteca.africamuseum.be/). They were written in Python 3, on MacOS, but were also tested on Windows 10 Pro and Ubuntu 20.04.
+All these scripts were developed in the frame of the **PAStECA Project** (BELSPO, BRAIN-be Programme, Contract n° BR/165/A3/PASTECA, http://pasteca.africamuseum.be/). They were written in Python 3.
   
 Each script can be run as it, by simply adapting the necessary parameters in the "setup" section of the script. All these scripts have the same 4-part structure:  
   
