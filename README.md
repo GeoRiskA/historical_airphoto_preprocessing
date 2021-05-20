@@ -13,7 +13,7 @@ Each script can be run by simply adapting the necessary parameters in the "setup
 *3) The SETUP section with the variables and parameters that must be adapted by the user (only part that must be modified before use)*  
 *4) The required coding to perform the task (should not be modified, except for specific user needs)*  
   
-To get the required Python working environment, the followed philosophy was to install the Anaconda/Miniconda Distribution for Python 3, create a virtual environment dedicated to the processing of aerial photographs (using "conda create --name myenv python=3) and add the required modules using the "conda install" or "pip install" functions. The required Python modules that are needed for each script are mentioned in the header of the script.  
+To get the required Python working environment, the followed philosophy was to install the Anaconda/Miniconda Distribution for Python 3, create a virtual environment dedicated to the processing of aerial photographs (using "conda create --name *myenv* python=3") and add the required modules using the "conda install" or "pip install" functions. The required Python modules that are needed for each script are mentioned in the header of the script.  
   
 Each script has been optimized for speed by parallelizing the job using the Multiprocessing module.  
   
