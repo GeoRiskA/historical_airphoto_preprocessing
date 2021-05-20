@@ -6,7 +6,7 @@ The present repository contains a series of scripts that are useful to prepare d
   
 All these scripts were developed in the frame of the **PAStECA Project** (BELSPO, BRAIN-be Programme, Contract n° BR/165/A3/PASTECA, http://pasteca.africamuseum.be/). They were written in Python 3.
   
-Each script can be run as it, by simply adapting the necessary parameters in the "setup" section of the script. All these scripts have the same 4-part structure:  
+Each script can be run by simply adapting the necessary parameters in the "setup" section of the script. All these scripts have the same 4-part structure:  
   
 *1) A header providing a description of the script, the name of the authors, the required Python modules, the reference to cite if used, etc.*  
 *2) A section with the Python modules to install (in addition to the recommended Anaconda/Miniconda Package distribution)*  
